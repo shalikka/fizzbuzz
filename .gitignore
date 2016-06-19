@@ -1,0 +1,28 @@
+*~
+*.log
+*.lck
+*.tmp
+
+#output folder
+dist
+target
+out
+
+# Numerous always-ignore files
+*.diff
+*.patch
+*.err
+*.orig
+*.rej
+*.swp
+*.swo
+
+# OS or editor folders
+.DS_Store
+.idea/workspace.xml
+.idea/dataSources.local.xml
+.gradle
+*.bak
+.cache
+build
+classes
