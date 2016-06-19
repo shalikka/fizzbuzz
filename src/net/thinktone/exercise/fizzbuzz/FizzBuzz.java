@@ -31,10 +31,10 @@ public class FizzBuzz {
     }
 
     private static boolean isFizz(int value) {
-        return value % 3 == 0;
+        return value % 3 == 0 || String.valueOf(value).contains("3");
     }
 
     private static boolean isBuzz(int value) {
-        return value % 5 == 0;
+        return value % 5 == 0 || String.valueOf(value).contains("5");
     }
 }
